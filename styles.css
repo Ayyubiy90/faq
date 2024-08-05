@@ -21,10 +21,20 @@ body {
   flex-direction: column;
   min-height: 100vh;
   padding: 20px;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 35vh; /* Adjust this value as needed */
   background-image: url("./assets/images/background-pattern-desktop.svg");
   background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: top center;
+  background-size: cover;
+  z-index: -1;
 }
 
 .faq-container {
@@ -120,9 +130,8 @@ body {
 }
 
 @media (max-width: 375px) {
-  body {
+  body::before {
     background-image: url("./assets/images/background-pattern-mobile.svg");
-    background-size: 100% 200px;
   }
 
   .faq-container {
