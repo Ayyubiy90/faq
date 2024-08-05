@@ -1,0 +1,129 @@
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-pink: hsl(275, 100%, 97%);
+  --color-grayish-purple: hsl(292, 16%, 49%);
+  --color-dark-purple: hsl(292, 42%, 14%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--color-light-pink);
+  color: var(--color-dark-purple);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.faq-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: var(--color-white);
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.faq-title {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.faq-icon {
+  margin-right: 24px;
+}
+
+.accordion-item {
+  border-bottom: 1px solid var(--color-light-pink);
+  margin-bottom: 20px;
+}
+
+.accordion-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  border: none;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-dark-purple);
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+.accordion-header:hover {
+  color: hsl(292, 42%, 30%);
+}
+
+.accordion-title {
+  padding-right: 20px;
+}
+
+.accordion-icon {
+  transition: transform 0.3s ease;
+}
+
+.accordion-header[aria-expanded="true"] .accordion-icon {
+  transform: rotate(45deg);
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.accordion-header[aria-expanded="true"] + .accordion-content {
+  max-height: 1000px;
+}
+
+.accordion-content p {
+  padding: 10px 0 20px;
+  color: var(--color-grayish-purple);
+}
+
+.attribution {
+  font-size: 15px;
+  text-align: center;
+  margin-top: auto;
+  padding: 20px 0;
+}
+
+.attribution a {
+  color: var(--color-dark-purple);
+  text-decoration: none;
+  font-weight: bolder;
+  transition: color 0.3s ease;
+}
+
+.attribution a:hover {
+  color: var(--color-grayish-purple);
+  text-decoration: none;
+}
+
+@media (max-width: 375px) {
+  .faq-container {
+    padding: 20px;
+  }
+
+  .faq-title {
+    font-size: 28px;
+  }
+
+  .accordion-header {
+    font-size: 16px;
+  }
+}
