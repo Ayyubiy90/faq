@@ -30,7 +30,7 @@ Users should be able to:
 ### Screenshot 📸
 
 #### Desktop Preview
-![](./screenshot.jpg)
+![](./Preview/Screenshot%20(44).png)
 
 #### Desktop active-states preview
 
@@ -42,8 +42,8 @@ Users should be able to:
 
 ### Links 🔗
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Front-end mentor](https://your-solution-url.com)
+- Live Site URL: [FAQ accordion](https://faq-red.vercel.app/)
 
 ## My Process 🛠️
 
@@ -96,10 +96,12 @@ Moving forward, I plan to focus on:
 
 ## Author 👨‍💻
 
-- Website - [Your Name](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Abdullah](https://social-links-profile-rose-mu.vercel.app/)
+- LinkedIn - [LinkedIn](https://www.linkedin.com/in/abdullah-a-2940b7260/)
+- Frontend Mentor - [Abdullah](https://www.frontendmentor.io/profile/Ayyubiy90)
+- Twitter - [Abdullah](https://www.twitter.com/ayyubiy10)
+- Instagram - [Abdullah](https://www.instagram.com/ayyubiy_10)
 
 ## Acknowledgments 🙏
 
-I'd like to thank Frontend Mentor for providing this challenge and the supportive community for their feedback and encouragement.
+A special thank you to Frontend Mentor for providing this challenge. I also appreciate the community for their inspiration and support!
