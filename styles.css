@@ -122,6 +122,7 @@ body {
 @media (max-width: 375px) {
   body {
     background-image: url("./assets/images/background-pattern-mobile.svg");
+    background-size: 100% 200px;
   }
 
   .faq-container {
