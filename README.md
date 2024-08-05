@@ -30,10 +30,10 @@ Users should be able to:
 ### Screenshot 📸
 
 #### Desktop Preview
-![](./Preview/Screenshot%20(44).png)
+![](./Preview/Screenshot%20(45).png)
 
 #### Desktop active-states preview
-
+![](./Preview/Screenshot%20(46).png)
 
 #### Mobile Preview
 ![](./Preview/mobile-design.jpg)
@@ -97,8 +97,8 @@ Moving forward, I plan to focus on:
 ## Author 👨‍💻
 
 - Website - [Abdullah](https://social-links-profile-rose-mu.vercel.app/)
-- LinkedIn - [LinkedIn](https://www.linkedin.com/in/abdullah-a-2940b7260/)
-- Frontend Mentor - [Abdullah](https://www.frontendmentor.io/profile/Ayyubiy90)
+- LinkedIn - [Adullah](https://www.linkedin.com/in/abdullah-a-2940b7260/)
+- Frontend Mentor - [@Ayyubiy90](https://www.frontendmentor.io/profile/Ayyubiy90)
 - Twitter - [Abdullah](https://www.twitter.com/ayyubiy10)
 - Instagram - [Abdullah](https://www.instagram.com/ayyubiy_10)
 
