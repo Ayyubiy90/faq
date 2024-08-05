@@ -42,7 +42,7 @@ Users should be able to:
 
 ### Links 🔗
 
-- Solution URL: [Front-end mentor](https://your-solution-url.com)
+- Solution URL: [Front-end mentor](https://www.frontendmentor.io/solutions/vanilla-javascript-mobile-first-workflow-accessibility-considerations-zDEBeC39HY)
 - Live Site URL: [FAQ accordion](https://faq-red.vercel.app/)
 
 ## My Process 🛠️
